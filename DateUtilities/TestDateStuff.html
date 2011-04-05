@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type="text/javascript" src="MiscDateTimeStuff.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+
+    var time = new Date();
+    document.write( "<br>The current date is ... " + bwh.MiscDateTimeStuff.formatDate(time));
+    document.write( "<br>The current time is ... " + bwh.MiscDateTimeStuff.formatTime(time));
+    
+    var myNumber = new Number("8.132");
+    document.write('<br>myNumber is '+myNumber);
+    document.write('<br>myNumber.padZero(10) is '+myNumber.padZero(10));
+    
+    var myNumber = new Number("15");
+    document.write('<br>myNumber is '+myNumber);
+    document.write('<br>myNumber.padZero(3) is '+myNumber.padZero(3));
+    
+</script>
+
+</body>
+</html>
