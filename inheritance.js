@@ -49,18 +49,3 @@ hondaCar.describe();
 
 var mazdaCar = factoryFunction('Mazda','Miata');
 mazdaCar.describe();
-
-
-// --------------------------------------------------
-// simple object with two properties and one function
-
-var myobj = {
-    prop1: 'thing1',
-    prop2: 'thing2',
-    fn1: function() {
-        console.log(this.prop1 + ' ... ' + this.prop2);
-    }
-};
-
-myobj.fn1();
-console.log(myobj.prop2);
