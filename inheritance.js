@@ -36,9 +36,9 @@ function factoryFunction(manuf, model) {
     var obj = {
         mfr: manuf,
         mdl: model,
-		describe: function() {
-			console.log(this.mfr + ' ' + this.mdl);
-		}
+	describe: function() {
+	   console.log(this.mfr + ' ' + this.mdl);
+	}
     };
     // other code to manipulate obj in some way here
     return obj;
